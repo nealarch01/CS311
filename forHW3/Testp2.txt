@@ -1,0 +1,49 @@
+nealarchival@Neals-MBP forHW3 % g++ llist.cpp slist.cpp HW3P2client.cpp
+nealarchival@Neals-MBP forHW3 % ./a.out
+... in llist constructor...
+slist constructor: 
+Step 1 addFront
+Step 2 addRear
+Step 3
+[4 6 7 8 ]
+Step 4
+Found 6 in location 2
+Step 5 replace 6
+Step 6
+[4 0 7 8 ]
+Step 7
+Found 8 in location 4
+Step 8 replace 8
+Step 9
+[4 0 7 2 ]
+Step 10
+Element not found
+Step 11 replace 7
+ERROR: Bad position was given
+----------- Edge Cases (replacing at Count - 1 and 0 when list is empty --------------
+Replacing at Position 5
+Error: Bad position was given
+... in llist constructor...
+slist constructor: 
+Replacing at Position 0 with empty list
+Error: Bad position was given
+Replacing at Position -1
+Error: Bad position was given
+Replacing position 1 with empty list
+Error: Bad position was given
+.... in llist destructor...
+.... in llist destructor...
+---- First Part testing done ----- 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+true
+false
+false
+true
+false
+false
+false
+.... in llist destructor...
+.... in llist destructor...

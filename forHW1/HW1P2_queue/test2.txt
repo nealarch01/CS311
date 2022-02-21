@@ -1,0 +1,28 @@
+A
+B
+C
+AA
+AB
+AC
+BA
+BB
+BC
+CA
+CB
+CC
+AAA
+AAB
+AAC
+ABA
+ABB
+ABC
+ACA
+ACB
+ACC
+BAA
+BAB
+BAC
+Cannot add
+nealarchival@Neals-MBP HW1P2_queue % 
+
+

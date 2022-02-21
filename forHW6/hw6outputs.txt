@@ -1,0 +1,138 @@
+nealarchival@Neals-MBP forHW6 % g++ slist.cpp llist.cpp dgraph.cpp hw6client.cpp 
+nealarchival@Neals-MBP forHW6 % ./a.out
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+Enter a file name: table.txt
+The number of edges: 12
+Name    Out     Visit   Adjacency
+----------------------------------------
+A       2       0        [B F ]
+B       2       0        [C G ]
+C       1       0        [H ]
+D       0       0        []
+E       0       0        []
+F       2       0        [I E ]
+G       0       0        []
+H       2       0        [G I ]
+I       3       0        [A G E ]
+----------------------------------------
+Enter a vertex name: A
+.... in llist destructor...
+Number of degrees: 2 
+[B F ]
+Enter a vertex name: a
+.... in llist destructor...
+Number of degrees: 2 
+[B F ]
+Enter a vertex name: b
+.... in llist destructor...
+Number of degrees: 2 
+[C G ]
+Enter a vertex name: B
+.... in llist destructor...
+Number of degrees: 2 
+[C G ]
+Enter a vertex name: c
+.... in llist destructor...
+Number of degrees: 1 
+[H ]
+Enter a vertex name: D
+.... in llist destructor...
+Number of degrees: 0 
+[]
+Enter a vertex name: d
+.... in llist destructor...
+Number of degrees: 0 
+[]
+Enter a vertex name: e
+.... in llist destructor...
+Number of degrees: 0 
+[]
+Enter a vertex name: E
+.... in llist destructor...
+Number of degrees: 0 
+[]
+Enter a vertex name: f
+.... in llist destructor...
+Number of degrees: 2 
+[I E ]
+Enter a vertex name: F
+.... in llist destructor...
+Number of degrees: 2 
+[I E ]
+Enter a vertex name: g
+.... in llist destructor...
+Number of degrees: 0 
+[]
+Enter a vertex name: h
+.... in llist destructor...
+Number of degrees: 2 
+[G I ]
+Enter a vertex name: H
+.... in llist destructor...
+Number of degrees: 2 
+[G I ]
+Enter a vertex name: i
+.... in llist destructor...
+Number of degrees: 3 
+[A G E ]
+Enter a vertex name: I
+.... in llist destructor...
+Number of degrees: 3 
+[A G E ]
+Enter a vertex name: j
+Bad vertex given
+Enter a vertex name: J
+Bad vertex given
+Enter a vertex name: k
+Bad vertex given
+Enter a vertex name: z
+Bad vertex given
+Enter a vertex name: 1
+Bad vertex given
+Enter a vertex name: -
+Bad vertex given
+Enter a vertex name: ;
+Bad vertex given
+Enter a vertex name: ^C
+nealarchival@Neals-MBP forHW6 % 

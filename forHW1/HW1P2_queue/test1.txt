@@ -1,0 +1,329 @@
+nealarchival@Neals-MacBook-Pro HW1P2_queue % g++ queue.cpp queuetest.cpp
+nealarchival@Neals-MacBook-Pro HW1P2_queue % ./a.out
+************** Queue Test Program *************
+This program tests the queue ADT implemented as
+an array.  
+It is a menu based program allowing you to test each method. 
+It displays the entire queue whenever it is modified.
+***********************************************
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>2
+The current contents are: 
+[]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>1
+Enter a string to be added : A
+The updated contents of the queue are:  
+[A]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>1
+Enter a string to be added : B
+The updated contents of the queue are:  
+[AB]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>1
+Enter a string to be added : C
+The updated contents of the queue are:  
+[ABC]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>1
+Enter a string to be added : D
+The updated contents of the queue are:  
+[ABCD]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>1
+Enter a string to be added : E
+The updated contents of the queue are:  
+[ABCDE]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>1
+Enter a string to be added : F
+The updated contents of the queue are:  
+[ABCDEF]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>1
+Enter a string to be added : G
+The updated contents of the queue are:  
+[ABCDEFG]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>1
+Enter a string to be added : H
+The updated contents of the queue are:  
+[ABCDEFGH]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>1
+Enter a string to be added : I
+The updated contents of the queue are:  
+[ABCDEFGHI]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>1
+Enter a string to be added : J
+The updated contents of the queue are:  
+[ABCDEFGHIJ]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>4
+A is at the front.
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>3
+A has been removed.
+The updated contents of the queue are: [BCDEFGHIJ]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>4
+B is at the front.
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>2
+The current contents are: 
+[BCDEFGHIJ]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>1
+Enter a string to be added : K
+The updated contents of the queue are:  
+[BCDEFGHIJK]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>8
+10 elements are in Queue.
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>2
+The current contents are: 
+[BCDEFGHIJK]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>7
+[CDEFGHIJKB]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>2
+The current contents are: 
+[CDEFGHIJKB]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>0
+Bye bye - ending the queue test program

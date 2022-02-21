@@ -1,0 +1,121 @@
+   ~/De/cs311/CS311Progs_LOCAL/HWPrograms/forHW8  g++ *.cpp                                                            ✔
+    ~/De/cs311/CS311Progs_LOCAL/HWPrograms/forHW8  ./a.out                                                              ✔
+Enter filename: data.txt
+0:[]
+1:[{408: San-Jose, California 85° Degrees Fahrenheit}  ]
+2:[]
+3:[]
+4:[]
+5:[]
+6:[]
+7:[{562: Long-Beach, California 71° Degrees Fahrenheit}  ]
+8:[]
+9:[{786: Miami, Florida 88° Degrees Fahrenheit}  ]
+10:[]
+11:[]
+12:[]
+13:[]
+14:[]
+15:[]
+16:[]
+17:[]
+18:[]
+19:[{907: Anchorage, Alaska 64° Degrees Fahrenheit}  ]
+20:[{760: Escondido, California 92° Degrees Fahrenheit}  ]
+21:[{650: Palo-Alto, California 77° Degrees Fahrenheit}  {206: Seattle, Washington 68° Degrees Fahrenheit}  ]
+22:[{503: Portland, Oregon 93° Degrees Fahrenheit}  ]
+23:[]
+24:[]
+25:[]
+26:[]
+27:[]
+28:[]
+29:[{214: Dallas, Texas 90° Degrees Fahrenheit}  ]
+30:[]
+31:[{919: Raleigh, North-Carolina 88° Degrees Fahrenheit}  {216: Cleveland, Ohio 70° Degrees Fahrenheit}  ]
+32:[]
+33:[]
+34:[]
+35:[]
+36:[{480: Phoenix, Arizona 99° Degrees Fahrenheit}  ]
+Ctrl+C to Exit
+Enter area code: 408
+----------------------------
+Key found
+{408: San-Jose, California 85° Degrees Fahrenheit}
+----------------------------
+Ctrl+C to Exit
+Enter area code: -408
+----------------------------
+Key not found
+----------------------------
+Ctrl+C to Exit
+Enter area code: 650
+----------------------------
+Key found
+{650: Palo-Alto, California 77° Degrees Fahrenheit}
+----------------------------
+Ctrl+C to Exit
+Enter area code: 206
+----------------------------
+Key found
+{206: Seattle, Washington 68° Degrees Fahrenheit}
+----------------------------
+Ctrl+C to Exit
+Enter area code: 503
+----------------------------
+Key found
+{503: Portland, Oregon 93° Degrees Fahrenheit}
+----------------------------
+Ctrl+C to Exit
+Enter area code: 504
+----------------------------
+Key not found
+----------------------------
+Ctrl+C to Exit
+Enter area code: 502
+----------------------------
+Key not found
+----------------------------
+Ctrl+C to Exit
+Enter area code: 214
+----------------------------
+Key found
+{214: Dallas, Texas 90° Degrees Fahrenheit}
+----------------------------
+Ctrl+C to Exit
+Enter area code: 919
+----------------------------
+Key found
+{919: Raleigh, North-Carolina 88° Degrees Fahrenheit}
+----------------------------
+Ctrl+C to Exit
+Enter area code: 216
+----------------------------
+Key found
+{216: Cleveland, Ohio 70° Degrees Fahrenheit}
+----------------------------
+Ctrl+C to Exit
+Enter area code: 480
+----------------------------
+Key found
+{480: Phoenix, Arizona 99° Degrees Fahrenheit}
+----------------------------
+Ctrl+C to Exit
+Enter area code: 4888
+----------------------------
+Key not found
+----------------------------
+Ctrl+C to Exit
+Enter area code: -4888
+----------------------------
+Key not found
+----------------------------
+Ctrl+C to Exit
+Enter area code: 99999
+----------------------------
+Key not found
+----------------------------
+Ctrl+C to Exit
+Enter area code: ^C
+    ~/De/c/C/HWPrograms/forHW8 

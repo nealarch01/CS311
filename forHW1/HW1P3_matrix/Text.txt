@@ -1,0 +1,12 @@
+nealarchival@Neals-MBP HW1P3_matrix % g++ mat.cpp
+nealarchival@Neals-MBP HW1P3_matrix % ./a.out
+reading from lines.txt
+0:a b c |b e f |- - - |- - - |
+1:- - - |- - - |c h i |- - - |
+2:- - - |- - - |- - - |d k l |
+saving the table in table.txt
+nealarchival@Neals-MBP HW1P3_matrix % cat table.txt
+0:a b c |b e f |- - - |- - - |
+1:- - - |- - - |c h i |- - - |
+2:- - - |- - - |- - - |d k l |
+nealarchival@Neals-MBP HW1P3_matrix % 

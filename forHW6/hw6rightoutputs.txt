@@ -1,0 +1,13 @@
+Enter the file name: table.txt
+** The number of edges is: 12
+  Out Visit Adj
+ -----------------------
+A 2     0 [B F ]
+B 2     0 [C G ]
+C 1     0 [H ]
+D 0     0 [empty]
+E 0     0 [empty]
+F 2     0 [I E ]
+G 0     0 [empty]
+H 2     0 [G I ]
+I 3     0 [A G E ]

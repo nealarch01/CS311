@@ -1,0 +1,260 @@
+nealarchival@Neals-MBP HW1P1_stack % g++ stack.cpp client1.cpp
+nealarchival@Neals-MBP HW1P1_stack % ./a.out
+type a postfix expression: 34+
+STACK:---------
+3
+--------------
+STACK:---------
+4
+3
+--------------
+STACK:---------
+7
+--------------
+The result was: 
+7
+nealarchival@Neals-MBP HW1P1_stack % ./a.out
+type a postfix expression: 345+*
+STACK:---------
+3
+--------------
+STACK:---------
+4
+3
+--------------
+STACK:---------
+5
+4
+3
+--------------
+STACK:---------
+9
+3
+--------------
+STACK:---------
+27
+--------------
+The result was: 
+27
+nealarchival@Neals-MBP HW1P1_stack % ./a.out
+type a postfix expression: 722+-
+STACK:---------
+7
+--------------
+STACK:---------
+2
+7
+--------------
+STACK:---------
+2
+2
+7
+--------------
+STACK:---------
+4
+7
+--------------
+STACK:---------
+3
+--------------
+The result was: 
+3
+nealarchival@Neals-MBP HW1P1_stack % ./a.out
+type a postfix expression: 34+56++
+STACK:---------
+3
+--------------
+STACK:---------
+4
+3
+--------------
+STACK:---------
+7
+--------------
+STACK:---------
+5
+7
+--------------
+STACK:---------
+6
+5
+7
+--------------
+STACK:---------
+11
+7
+--------------
+STACK:---------
+18
+--------------
+The result was: 
+18
+nealarchival@Neals-MBP HW1P1_stack % ./a.out
+type a postfix expression: 12+34*45+-+  
+STACK:---------
+1
+--------------
+STACK:---------
+2
+1
+--------------
+STACK:---------
+3
+--------------
+STACK:---------
+3
+3
+--------------
+STACK:---------
+4
+3
+3
+--------------
+STACK:---------
+12
+3
+--------------
+STACK:---------
+4
+12
+3
+--------------
+STACK:---------
+5
+4
+12
+3
+--------------
+STACK:---------
+9
+12
+3
+--------------
+STACK:---------
+3
+3
+--------------
+STACK:---------
+6
+--------------
+The result was: 
+6
+nealarchival@Neals-MBP HW1P1_stack % ./a.out      
+type a postfix expression: 1234567891234
+STACK:---------
+1
+--------------
+STACK:---------
+2
+1
+--------------
+STACK:---------
+3
+2
+1
+--------------
+STACK:---------
+4
+3
+2
+1
+--------------
+STACK:---------
+5
+4
+3
+2
+1
+--------------
+STACK:---------
+6
+5
+4
+3
+2
+1
+--------------
+STACK:---------
+7
+6
+5
+4
+3
+2
+1
+--------------
+STACK:---------
+8
+7
+6
+5
+4
+3
+2
+1
+--------------
+STACK:---------
+9
+8
+7
+6
+5
+4
+3
+2
+1
+--------------
+STACK:---------
+1
+9
+8
+7
+6
+5
+4
+3
+2
+1
+--------------
+Error: Stack Overflow. Too Many Operands
+nealarchival@Neals-MBP HW1P1_stack % ./a.out
+type a postfix expression: +
+Error: Stack Underflow. Too Few Operands
+nealarchival@Neals-MBP HW1P1_stack % ./a.out
+type a postfix expression: 3+
+STACK:---------
+3
+--------------
+Error: Stack Underflow. Too Few Operands
+nealarchival@Neals-MBP HW1P1_stack % ./a.out
+type a postfix expression: 3#
+STACK:---------
+3
+--------------
+Invalid Element
+nealarchival@Neals-MBP HW1P1_stack % ./a.out
+type a postfix expression: 2345+
+STACK:---------
+2
+--------------
+STACK:---------
+3
+2
+--------------
+STACK:---------
+4
+3
+2
+--------------
+STACK:---------
+5
+4
+3
+2
+--------------
+STACK:---------
+9
+3
+2
+--------------
+Error: Incomplete Expression

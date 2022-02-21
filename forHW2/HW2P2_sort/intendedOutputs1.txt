@@ -1,0 +1,73 @@
+[archi009@empress HW2P2_sort]$ ./hw2partitionDemo.out 
+Partition Demo by Yoshii
+How many elements? (must be less than 10) 7
+Enter elements one per line..
+1
+7
+5
+6
+4
+2
+3
+Ok the pivot is 1
+Results...
+1|756423
+[archi009@empress HW2P2_sort]$ ./hw2partitionDemo.out 
+Partition Demo by Yoshii
+How many elements? (must be less than 10) 8
+Enter elements one per line..
+8
+7
+6
+5
+4
+3
+2
+1
+Ok the pivot is 8
+swap 8 and 1
+Results...
+1765432|8
+[archi009@empress HW2P2_sort]$ ./hw2partitionDemo.out 
+Partition Demo by Yoshii
+How many elements? (must be less than 10) 8
+Enter elements one per line..
+5
+1
+4
+3
+6
+7
+8
+2
+Ok the pivot is 5
+swap 5 and 2
+Results...
+2143|6785
+[archi009@empress HW2P2_sort]$ ./hw2partitionDemo.out 
+Partition Demo by Yoshii
+How many elements? (must be less than 10) 6
+Enter elements one per line..
+4
+3
+1
+2
+7
+5
+Ok the pivot is 4
+swap 4 and 2
+Results...
+231|475
+[archi009@empress HW2P2_sort]$ ./hw2partitionDemo.out 
+Partition Demo by Yoshii
+How many elements? (must be less than 10) 5
+Enter elements one per line..
+2
+6
+4
+1
+7
+Ok the pivot is 2
+swap 2 and 1
+Results...
+1|6427

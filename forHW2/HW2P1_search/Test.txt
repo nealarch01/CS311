@@ -1,0 +1,81 @@
+nealarchival@Neals-MBP HW2P1_search % g++ binsearch.cpp
+nealarchival@Neals-MBP HW2P1_search % ./a.out
+1 3 5 7 9 11 13 15 17 19 
+What do you want to look for? 1
+comparing against an element in slot 5
+comparing against an element in slot 2
+comparing against an element in slot 0
+Found it in position 1
+nealarchival@Neals-MBP HW2P1_search % ./a.out
+1 3 5 7 9 11 13 15 17 19 
+What do you want to look for? 19
+comparing against an element in slot 5
+comparing against an element in slot 8
+comparing against an element in slot 9
+Found it in position 10
+nealarchival@Neals-MBP HW2P1_search % ./a.out
+1 3 5 7 9 11 13 15 17 19 
+What do you want to look for? 5
+comparing against an element in slot 5
+comparing against an element in slot 2
+Found it in position 3
+nealarchival@Neals-MBP HW2P1_search % ./a.out
+1 3 5 7 9 11 13 15 17 19 
+What do you want to look for? 17
+comparing against an element in slot 5
+comparing against an element in slot 8
+Found it in position 9
+nealarchival@Neals-MBP HW2P1_search % ./a.out
+1 3 5 7 9 11 13 15 17 19 
+What do you want to look for? 21
+comparing against an element in slot 5
+comparing against an element in slot 8
+comparing against an element in slot 9
+comparing against an element in slot 10
+Element not found
+nealarchival@Neals-MBP HW2P1_search % ./a.out
+1 3 5 7 9 11 13 15 17 19 
+What do you want to look for? 0
+comparing against an element in slot 5
+comparing against an element in slot 2
+comparing against an element in slot 0
+Element not found
+nealarchival@Neals-MBP HW2P1_search % ./a.out
+1 3 5 7 9 11 13 15 17 19 
+What do you want to look for? 6
+comparing against an element in slot 5
+comparing against an element in slot 2
+comparing against an element in slot 3
+Element not found
+
+
+--------------- additional test cases ------------------------
+nealarchival@Neals-MBP HW2P1_search % ./a.out
+1 3 5 7 9 11 13 15 17 19 
+What do you want to look for? 7
+comparing against an element in slot 5
+comparing against an element in slot 2
+comparing against an element in slot 3
+Found it in position 4
+nealarchival@Neals-MBP HW2P1_search % ./a.out
+1 3 5 7 9 11 13 15 17 19 
+What do you want to look for? 11
+comparing against an element in slot 5
+Found it in position 6
+nealarchival@Neals-MBP HW2P1_search % ./a.out
+1 3 5 7 9 11 13 15 17 19 
+What do you want to look for? 13
+comparing against an element in slot 5
+comparing against an element in slot 8
+comparing against an element in slot 6
+Found it in position 7
+nealarchival@Neals-MBP HW2P1_search % ./a.out
+1 3 5 7 9 11 13 15 17 19 
+What do you want to look for? -1
+comparing against an element in slot 5
+comparing against an element in slot 2
+comparing against an element in slot 0
+Element not found
+nealarchival@Neals-MBP HW2P1_search %     
+
+
