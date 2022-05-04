@@ -5,7 +5,7 @@
 
 ### HW2
 - Searching (binary & linear search)
-- Recursive searching algorithms (quick sort and merge sort)
+- Recursive sorting algorithms (quick sort and merge sort)
 
 ### HW3
 - Singly linked list
